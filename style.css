@@ -11,9 +11,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(./images/bg-pattern-bottom.svg);
-    background-size: contain;
+    background-color: hsl(185deg, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -569px left -56px, bottom -649px right 222px;
     background-color: hsl(185, 75%, 39%);
+    background-size: contain;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
